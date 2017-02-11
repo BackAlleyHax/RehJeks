@@ -26,7 +26,7 @@ angular.module('rehjeks', [
 
 //UI router config with associated login and useroptions states for each page
 
-.config(function($stateProvider, $urlRouterProvider, $httpProvider){
+.config(function($stateProvider, $urlRouterProvider, $httpProvider, $momentProvider){
 
   // redirect to /solve if any unrecognized paths are loaded
   $urlRouterProvider.otherwise('/solve');
